@@ -1,0 +1,7 @@
+package com.kodlamaio.rentACar.core.adapters;
+
+public class UserValidationService {
+	boolean checkIfRealPerson(CreateIndividualCustomerRequest createIndividualCustomerRequest)throws NumberFormatException, RemoteException;
+	boolean checkIfRealPerson(UpdateIndividualCustomerRequest updateIndividualCustomerRequest)throws NumberFormatException, RemoteException;
+
+}

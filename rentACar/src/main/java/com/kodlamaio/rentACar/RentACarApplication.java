@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.kodlamaio.rentACar.Core.Utilities.Results.ErrorDataResult;
-import com.kodlamaio.rentACar.Core.Utilities.exceptions.BusinessException;
+import com.kodlamaio.rentACar.core.utilities.exceptions.BusinessException;
+import com.kodlamaio.rentACar.core.utilities.results.ErrorDataResult;
 
 @RestControllerAdvice
 @SpringBootApplication
@@ -24,7 +24,7 @@ public class RentACarApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RentACarApplication.class, args);
 	}
-
+	
 	@Bean
 	public ModelMapper getModelMapper() {
 		return new ModelMapper();
