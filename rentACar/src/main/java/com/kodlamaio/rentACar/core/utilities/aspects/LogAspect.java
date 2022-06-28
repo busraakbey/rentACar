@@ -17,12 +17,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Aspect
 @Component // classdan nesne üretme işini spring e bırakıyoruz
 
-public class LogAspect {
+public class LogAspect {}
 	//List<StringBuilder> builderList = new ArrayList<StringBuilder>();
 
 		// @Before("execution(*
 		// com.kodlamaio.rentACar.business.concretes.BrandManager.*(..))")
-		@Before("execution(* com.kodlamaio.rentACar.business.concretes.*.*(..))")
+/*		@Before("execution(* com.kodlamaio.rentACar.business.concretes.*.*(..))")
 		public void beforeLog(JoinPoint joinPoint) throws JSONException, IOException {
 			MethodSignature signature = (MethodSignature) joinPoint.getSignature();
 			StringBuilder builder = new StringBuilder();
@@ -51,7 +51,7 @@ public class LogAspect {
 				
 			}
 
-
+*/
 
 
 	//	
@@ -86,6 +86,6 @@ public class LogAspect {
 
 //		@Pointcut("execution(* com.kodlamaio.rentACar.business.concretes.BrandManger.getById(int)) ") //.*.* hepsi için
 //		public void pointcut() {} //kesişim noktası //dummy
-		}
+	//	}
 
-}
+//}

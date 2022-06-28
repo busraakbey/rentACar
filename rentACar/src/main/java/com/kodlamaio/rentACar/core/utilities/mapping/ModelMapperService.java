@@ -2,7 +2,7 @@ package com.kodlamaio.rentACar.core.utilities.mapping;
 
 import org.modelmapper.ModelMapper;
 
-public class ModelMapperService {
+public interface ModelMapperService {
 	ModelMapper forResponse();
 
 	ModelMapper forRequest(); //Requestlerin map inglerini

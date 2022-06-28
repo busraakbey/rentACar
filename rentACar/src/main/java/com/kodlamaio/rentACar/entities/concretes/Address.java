@@ -24,11 +24,12 @@ public class Address {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "address")
-	private String address;
+
+	@Column(name = "contact_address")
+	private String contactAddress;
 	
 	@Column(name = "invoice_address")
-	private String invoiceAdress;	
+	private String invoiceAddress;	
 
 	@ManyToOne
 	@JoinColumn(name = "customer_id")

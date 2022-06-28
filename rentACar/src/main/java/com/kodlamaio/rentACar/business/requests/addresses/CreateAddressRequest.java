@@ -12,6 +12,6 @@ public class CreateAddressRequest {
 
 	private String contactAddress;
 	private String invoiceAddress;
-	private int userId;
+	private int customerId;
 
 }

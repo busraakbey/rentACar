@@ -12,6 +12,6 @@ public class UpdateAddressRequest {
 	private int id;
 	private String contactAddress;
 	private String invoiceAddress;
-	private int userId;
+	private int customerId;
 
 }

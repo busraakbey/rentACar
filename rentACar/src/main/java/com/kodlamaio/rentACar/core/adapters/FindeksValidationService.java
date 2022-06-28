@@ -1,6 +1,6 @@
 package com.kodlamaio.rentACar.core.adapters;
 
-public class FindeksValidationservice {
+public interface FindeksValidationService {
 	int calculateFindeksScoreOfUser(String identityNumber);
 
 }

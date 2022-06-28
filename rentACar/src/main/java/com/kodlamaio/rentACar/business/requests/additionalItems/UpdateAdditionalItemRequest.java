@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class UpdateAdditionalRequest {
+public class UpdateAdditionalItemRequest {
 
 	private int id;
 	private String name;
